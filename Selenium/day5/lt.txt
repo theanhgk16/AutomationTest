@@ -1,0 +1,26 @@
+1) application commands
+2) conditional commands
+3) browser commands
+4) navigational commands
+5) wait commands
+
+
+Application Commands
+    get() - opening the application URL
+    Title - to capture the title of the current page
+    Current_url - to capture the title current url of the webpage
+    Page_source - to capture source code of the webpage
+
+Conditional Commands
+    is_displayed()
+    is_enabled()
+    is_selected()
+
+Browser Commands
+    close() -  close single browser window
+    quit() - close multiple browser windows
+
+Navigational Commands
+    back()
+    forward()
+    fresh()
