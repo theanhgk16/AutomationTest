@@ -1,0 +1,37 @@
+Wait commands
+--------------
+
+time.sleep(time in seconds)
+    Adv
+    ------
+    1) simple to use
+
+    DisAdv
+    ------
+    1) performance of the script is very poor
+    2) if the element is not available with in the time mentioned, still there is a chance of getting exception
+
+1) implicit wait
+
+    driver.implicitly_wait(10)
+
+    Adv
+    ------
+    1) single statement
+    2) performance will not be reduced.(if the element is available within the time it proceed to execute further statements)
+
+    DisAdv
+    ------
+    1) if the element is not available with in the time mentioned, still there is a chance of getting exception
+
+2) explicit wait
+
+     explicit wait works based on condition
+
+     Adv
+     1) More effectively works
+
+     Dis
+     ----
+     Multiple places
+     Feel some difficulty
