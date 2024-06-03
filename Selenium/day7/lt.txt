@@ -1,0 +1,12 @@
+Checkbox
+
+Links:
+    internal
+    external
+    broken link
+
+Dropdown
+
+Assingment
+
+    https://testautomationpractice.blogspot.com/
