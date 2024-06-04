@@ -1,0 +1,38 @@
+Alerts/Popups
+-------------
+my_alert = driver.switch_to.alert
+
+my_alert.text
+my_alert.accept()
+my_alert.dismiss()
+
+Authentication popup
+-------------------
+
+https://the-internet.herokuapp.com/basic_auth
+syntax: https://username:password @test.com
+Example: https://admin@the-internet.herokuapp.com/basic_auth
+
+Frames/IFrames
+-------------
+
+switch_to_frame() # selenium3
+
+#selenium4
+switch_to.frame(name of the frame)
+switch_to.frame(id of the frame)
+switch_to.frame(web element)
+switch_to.frame(0)
+
+frame
+iframes
+form
+
+inner frames
+
+Browser windows
+---------------
+switch_to.window(WindowID)
+
+current_window_handle  ---> return windowID of single browser window
+window_handles  -> return windowID is of multiple browser windows
